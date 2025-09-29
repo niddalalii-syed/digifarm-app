@@ -33,7 +33,7 @@ class _AlertScreenState extends State<AlertScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Warning'),
+          title: Text('Alert'),
         ),
         body: FutureBuilder<List<NotificationModel>>(
           future: notifications, // The future that holds the notification data
